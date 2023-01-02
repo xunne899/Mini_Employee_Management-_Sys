@@ -7,7 +7,7 @@ if(conf == true){
   
 while(select !== "5"){
 
-     select = prompt("List of available function\n\n" + "1 Add Employee\n2. View Employee\n3. Modify Employee\n4. Delete employee\n5. Quit")
+     select = prompt("List of available function\n\n" + "1 Add Employee\n2. View Employee\n3. Modify Employee\n4. Delete employee\n5. Quit\nPlease enter your selection by entering option number ")
     if (select == "1"){
      emName = prompt("Enter the name of Employee");
      this.employee.push(emName);
